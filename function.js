@@ -1,3 +1,4 @@
+/*
 //opgave 1
 function sum(numbers) {
     let sum = 0;
@@ -41,3 +42,13 @@ function countVowels(str) {
 }
 
 console.log(countVowels("Åge bøjede syv fine rør ud."));
+*/
+
+//opgave 4
+
+function filterOdd(oddNumbers) {
+    return oddNumbers.filter(n => n % 2 !== 0);
+}
+let myNumbers = [10, 5, 8, 12, 3];
+let oddNumbers = filterOdd(myNumbers);
+console.log(oddNumbers); 
