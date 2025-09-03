@@ -24,19 +24,20 @@ console.log(max);
 
 //opgave 3
 
+
 function countVowels(str) {
-
     let count = 0;
-    let arr = str.toLowerCase().split("")
-    let vowels = ["e", "i", "o", "u", "y", "æ", "ø", "å"]
-    console.log(arr)
 
-    for (let i = 0; i < str.length; i++) {
-        if (vowels.includes(arr[i])) {
-            count++
+    let array = str.toLowerCase().split("");
+
+    let vowels = ["a", "e", "i", "o", "u", "y", "æ", "ø", "å"];
+
+    for (let i = 0; i < array.length; i++) {
+        if (vowels.includes(array[i])) {
+            count++;
         }
     }
-    return count
-
+    return count;
 }
-console.log(countVowels('Åge bøjede syv fine rør ud.'))
+
+console.log(countVowels("Åge bøjede syv fine rør ud."));
