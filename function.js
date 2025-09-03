@@ -51,4 +51,12 @@ function filterOdd(oddNumbers) {
 }
 let myNumbers = [10, 5, 8, 12, 3];
 let oddNumbers = filterOdd(myNumbers);
-console.log(oddNumbers); 
+console.log(oddNumbers);
+
+
+//Opgave 5
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+
+console.log(reverseString("Hej med dig"));
